@@ -20,10 +20,10 @@ void Dialog::on_pushButton_clicked()
 {
     if(ui->checkBox->isChecked())
     {
-        QMessageBox::information(this,"cats","you like cats");
+        QMessageBox::information(this,"verification","you verified");
     }
     else
     {
-        QMessageBox::information(this,"cats","you don't like cats");
+        QMessageBox::information(this,"verification","you didn't verified");
     }
 }
