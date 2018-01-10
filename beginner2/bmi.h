@@ -1,10 +1,9 @@
 //function declaration
-
 #ifndef BMI_H
 #define BMI_H
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
 using namespace std;
 

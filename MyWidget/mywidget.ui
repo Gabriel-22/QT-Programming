@@ -6,43 +6,42 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>650</width>
-    <height>400</height>
+    <width>622</width>
+    <height>270</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MyWidget</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>15</y>
-      <width>300</width>
-      <height>340</height>
+      <x>6</x>
+      <y>16</y>
+      <width>578</width>
+      <height>194</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QCalendarWidget" name="calendarWidget">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>15</y>
-      <width>312</width>
-      <height>183</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="lcdNumber">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>240</y>
-      <width>64</width>
-      <height>23</height>
-     </rect>
-    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QCalendarWidget" name="calendarWidget">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -50,7 +49,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>650</width>
+     <width>622</width>
      <height>21</height>
     </rect>
    </property>
