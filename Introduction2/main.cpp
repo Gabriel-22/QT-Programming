@@ -1,12 +1,14 @@
-// most basic and important library in qt
-#include <QApplication>
+#include <iostream>
 
-#include <QLabel>
+using namespace std;
 
-int main(int argc, char *argv[]){
-    //define object of QApplication
-    QApplication app(argc, argv);
-    QLabel *label = new QLabel("hello world");
-    label->show();
-    return app.exec();
+int main(){
+
+int x;
+
+    cin >> x;
+
+    cout << x << endl;
+
+    return 0;
 }
