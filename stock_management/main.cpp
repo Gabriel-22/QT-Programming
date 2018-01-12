@@ -9,6 +9,25 @@ code by Gabriel V. Andolphatto
 selling and stocking products system
 */
 
+
+void Register(){
+    do{
+    cout<<"\Product "<<i+1;
+    cout<<"\nEnter product name: ";
+    cin>>name[i];
+    cout<<"Enter product price: ";
+    cin>>price[i];
+    cout<<"Enter product quantity: ";
+    cin>>quantity[i];
+    cout<<"\nRegister more products? y/n: ";
+    cin>>answer;
+    i+=1;
+    }while(answer!='n');
+    total=i;
+}
+
+
+
 int main()
 {
     string name[50];
@@ -42,19 +61,9 @@ int main()
     switch(input){
 
         case '1': //input 1: Register the products fields (name, price, quantity) in vectors
-            do{
-            cout<<"\Product "<<i+1;
-            cout<<"\nEnter product name: ";
-            cin>>name[i];
-            cout<<"Enter product price: ";
-            cin>>price[i];
-            cout<<"Enter product quantity: ";
-            cin>>quantity[i];
-            cout<<"\nRegister more products? y/n: ";
-            cin>>answer;
-            i+=1;
-            }while(answer!='n');
-            total=i;
+
+            void Register();
+
             break;
 
         case '2': //input 2: consult registered products in sotck and add more quantities of the same product
