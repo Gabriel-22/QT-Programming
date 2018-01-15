@@ -1,14 +1,16 @@
 #include <iostream>
-
+#include <string>
+#include "test.h"
 using namespace std;
 
-int main(){
 
-int x;
+int main()
+{
+    test book1;
 
-    cin >> x;
+    book1.setBookId(100);
 
-    cout << x << endl;
+    cout << book1.getBookId() << endl;
 
     return 0;
 }
