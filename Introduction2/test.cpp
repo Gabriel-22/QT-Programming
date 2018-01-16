@@ -5,12 +5,18 @@ test::test()
 
 }
 
-void test::setBookId(int BookId_){
+void shape::setValues(int a, int b){
 
-    bookId = BookId_;
-}
+    height = a;
+    width = b;
+    }
 
-int test::getBookId(){
+int rectangle::area(){
 
-    return bookId;
-}
+        return(height * width);
+    }
+
+int triangle::area(){
+
+        return((height * width)/2);
+    }

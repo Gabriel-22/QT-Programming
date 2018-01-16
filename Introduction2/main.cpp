@@ -2,15 +2,15 @@
 #include <string>
 #include "test.h"
 using namespace std;
+//polygon /rectangle square triangle
 
 
 int main()
 {
-    test book1;
+    rectangle rec;
+    triangle tri;
 
-    book1.setBookId(100);
-
-    cout << book1.getBookId() << endl;
+    rec.setva
 
     return 0;
 }
