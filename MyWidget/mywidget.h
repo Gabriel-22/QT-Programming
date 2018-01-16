@@ -15,6 +15,9 @@ public:
     explicit MyWidget(QWidget *parent = 0);
     ~MyWidget();
 
+private slots:
+    void on_actionAbout_triggered();
+
 private:
     Ui::MyWidget *ui;
 };
