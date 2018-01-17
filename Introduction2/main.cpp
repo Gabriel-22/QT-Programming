@@ -7,10 +7,17 @@ using namespace std;
 
 int main()
 {
-    rectangle rec;
-    triangle tri;
+    int a,b;
 
-    rec.setva
+    cout << "enter height " << endl;
+    cin >> a;
+    cout << "enter width: " << endl;
+    cin >> b;
+
+    shape rectangle1;
+
+    rectangle1.setValues(a, b);
+    cout << rectangle1.getValues() << endl;
 
     return 0;
 }

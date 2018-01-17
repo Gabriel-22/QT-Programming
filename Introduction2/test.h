@@ -12,19 +12,8 @@ protected:
     int width;
 
 public:
-    void setValues(int a, int b)
-};
-
-class rectangle : public shape
-{
-public:
-    int area();
-};
-
-class triangle : public shape
-{
-public:
-    int area();
+    void setValues(int a, int b);
+    int getValues();
 };
 
 #endif // TEST_H

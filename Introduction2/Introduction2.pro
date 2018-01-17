@@ -15,3 +15,6 @@ SOURCES += \
 
 HEADERS += \
     test.h
+
+FORMS += \
+    test.ui
