@@ -8,8 +8,8 @@ MyWidget::MyWidget(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    connect(ui->horizontalSlider,SIGNAL(valueChanged(int)),
-            ui->progressBar,SLOT(setValue(int)));
+    ui->pushButton->setText("Close");
+
 }
 
 MyWidget::~MyWidget()
