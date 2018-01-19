@@ -1,0 +1,15 @@
+#ifndef EXAMPLE_H
+#define EXAMPLE_H
+
+
+
+class Shape
+{
+public:
+    Shape();
+    ~Shape();
+    
+
+};
+
+#endif // EXAMPLE_H
