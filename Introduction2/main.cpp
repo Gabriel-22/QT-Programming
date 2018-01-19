@@ -2,22 +2,20 @@
 #include <string>
 #include "test.h"
 using namespace std;
-//polygon /rectangle square triangle
 
+class Test{
+public:
+    void print(){
+        cout << "Hello" << endl;
+    }
+
+
+};
 
 int main()
 {
-    int a,b;
-
-    cout << "enter height " << endl;
-    cin >> a;
-    cout << "enter width: " << endl;
-    cin >> b;
-
-    shape rectangle1;
-
-    rectangle1.setValues(a, b);
-    cout << rectangle1.getValues() << endl;
+    Test object;
+    object.print();
 
     return 0;
 }

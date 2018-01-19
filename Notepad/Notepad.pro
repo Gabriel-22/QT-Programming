@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += notepad.h
 
 FORMS    += notepad.ui
+
+RESOURCES += \
+    resources_notepad.qrc
