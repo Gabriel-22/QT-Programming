@@ -3,17 +3,18 @@
 #include <string>
 using namespace std;
 
-Shape::Shape(){
 
+Example::Example(){
 
+    data = 50;
 }
 
-Example::~Example()
-{
-    cout << "deconstructor" << endl;
+void Example::typeSomething(){
+
+    cout << "constructor being called" << endl;
 }
 
-void Example::printCrap(){
+void Example::display(){
 
-    cout << "Hello" << endl;
+    cout << "data is equal to " << data << endl;
 }

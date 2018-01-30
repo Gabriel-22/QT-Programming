@@ -2,12 +2,16 @@
 #define EXAMPLE_H
 
 
+
 class Example
 {
+private:
+    int data;
+
 public:
     Example();
-    ~Example();
-    void printCrap();
+    void typeSomething();
+    void display();
 
 };
 

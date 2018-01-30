@@ -6,8 +6,11 @@ using namespace std;
 
 int main(){
 
-    Example obj;
-    cout << "Hello" << endl;
+    Example ob1,ob2;
+    ob1.typeSomething();
+    ob2.typeSomething();
+    ob1.display();
+    ob2.display();
 
     return 0;
 }
